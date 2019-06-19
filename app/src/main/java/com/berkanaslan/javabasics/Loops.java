@@ -1,0 +1,41 @@
+package com.berkanaslan.javabasics;
+
+public class Loops {
+    public static void main(String[] args){
+
+        //for loops
+
+        int[] myNumbers = {12,15,18,21,24};
+
+
+        //System.out.println(x);
+
+        for(int i=0; i<myNumbers.length; i++) {
+
+            int x = myNumbers[i] / 3 * 5;
+            System.out.println(x);
+
+        }
+
+        for(int number : myNumbers) {
+            System.out.println(number / 3* 5);
+        }
+
+        for(int a=0; a<10;a++)
+        {
+            int b = a *10;
+            System.out.println("Sonuc:"+b);
+        }
+
+        //While
+
+        int j =0;
+        while (j<10) {
+            System.out.println("test");
+            j++;
+
+        }
+
+
+    }
+}
